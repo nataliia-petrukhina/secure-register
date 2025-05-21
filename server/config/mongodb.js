@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const connectDB = async () => {
+const connectDB = async () => { //асинхронная функция  чтобы внутри можно было использовать await для ожидания подключения.
     await mongoose.connection.on('connected', ()=>{
         console.log("Database Connected...");
         
