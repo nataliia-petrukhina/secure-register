@@ -60,7 +60,7 @@ http://localhost:4000/api/auth/is-auth
 
 7) POST
 
-http://localhost:4000/api/auth/send-reset-otp
+http://host:4000/api/auth/send-reset-otp
 { 
   "email":"nidajew796@bamsrad.com"
 }
